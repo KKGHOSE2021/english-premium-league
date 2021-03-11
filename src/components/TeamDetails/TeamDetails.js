@@ -51,9 +51,9 @@ const TeamDetails = () => {
             </div>
             <div className="social-media row mx-auto mt-1">
                 <div className="add-radius bg-white">
-                    <a className="px-3" href={'https://'+strTwitter} target="_blank"><FontAwesomeIcon icon={faTwitter}/></a>
-                    <a className="px-3" href={'https://'+strFacebook} target="_blank"><FontAwesomeIcon icon={faFacebook}/></a>
-                    <a className="px-3" href={'https://'+strYoutube} target="_blank"><FontAwesomeIcon icon={faYoutube}/></a>
+                    <a className="px-3" href={'https://'+strTwitter} ><FontAwesomeIcon icon={faTwitter}/></a>
+                    <a className="px-3" href={'https://'+strFacebook} ><FontAwesomeIcon icon={faFacebook}/></a>
+                    <a className="px-3" href={'https://'+strYoutube} ><FontAwesomeIcon icon={faYoutube}/></a>
                 </div>
             </div>
         </div>
