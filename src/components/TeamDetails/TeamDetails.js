@@ -16,9 +16,9 @@ const TeamDetails = () => {
         fetch(url)
         .then(res => res.json())
         .then(data => setTeamDetails(data.teams[0]))
-    }, []) 
+    }, [idTeam]) 
 
-    const {strStadiumThumb, strTeamBadge, strTeamFanart1, strDescriptionEN, strTeam, intFormedYear, strCountry, strSport, strGender, strTwitter, strFacebook, strYoutube} = teamDetails;
+    const {strTeamFanart1, strDescriptionEN, strTeam, intFormedYear, strCountry, strSport, strGender, strTwitter, strFacebook, strYoutube} = teamDetails;
 
     let imgOfGender;
     if (strGender==='Male'){
