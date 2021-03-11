@@ -1,0 +1,27 @@
+.header-img img{
+    width: 1140px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;     
+
+}
+.img-size img{
+    height:200px;
+    float: right;
+}
+
+.add-radius{
+    border-radius: 20px;
+}
+
+.test{
+    border: 10px solid green; 
+}
+.social-media{
+    padding: 30px;    
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
